@@ -1,4 +1,4 @@
-alert('TE AMO AMOR ')
+
 function carregar() {
 
     var msg = window.document.getElementById('msg') //na DIV esta esse msg
