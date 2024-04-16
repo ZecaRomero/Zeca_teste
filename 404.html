@@ -3,27 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MODELO</title>
+    <title>VERIFICADOR DE IDADE</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body onload="carregar()"> <!--onload(CODIGO JAVASCRIPT), quando eu carregar chama o codigo carregar-->
+<body> 
 
     <header>
-        <h1>HORA DO DIA </h1>
+        <h1>VERIFICADOR DE IDADE </h1>
     </header>
 
     <section>
 
-        <div id="msg">
-         
+        <div>  <!--essa é a DIV de cima-->
+          <p> Ano de Nascimento: 
+            <input type="number" name="txtano" id="txtano">
+          </p>
+
+          <p>
+            Sexo:
+
+            <input type="radio" name="radsex" id="mas" checked> <!--Força a escolha de 1-->
+            <label for="mas">Masculino</label>
+
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+          </p>
+
+          <p>
+            <input type="button" value="Verificar" onclick="verificar()">
+          </p>
+           
 
         </div>
 
-        <div id="imagem">
+
+        <div id="RES"> <!--essa é a DIV de baixo-->
+
+            Preencha os dados acima para ver o resultado.
             
-            <img id="imagem" src="manha.webp" alt="foto manha" style="width: 350px; height: 350px; border-radius: 50%;">          
-
-
+               
         </div>
 
     </section>

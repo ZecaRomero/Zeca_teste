@@ -17,7 +17,7 @@ header {
 
 h1{
     color: rgba(93, 208, 78, 0.778);
-    box-shadow: 5px 5px 10px blue;
+    box-shadow: 5px 5px 10px rgb(255, 242, 0);
 }
 
 
@@ -30,7 +30,7 @@ section {
     padding: 15px;
     width: 500px; /*largura*/
     margin: auto;
-    box-shadow: 15px 5px 20px rgb(81, 255, 0);
+    box-shadow: 15px 5px 20px rgb(242, 246, 240);
 
 }
 
