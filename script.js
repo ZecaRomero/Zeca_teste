@@ -8,7 +8,7 @@ function carregar() {
     var minutos = data.getMinutes()
     var segundos = data.getSeconds()
     
-    // forcando a hora var hora = 8
+    //forcando a hora var hora = 8
     msg.innerHTML = `Agora sao ${hora}:${minutos } e ${segundos} segundos.`
    
 
