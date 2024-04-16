@@ -1,6 +1,6 @@
 body {
 
-    background-color: rgba(0, 0, 255, 0.667);
+    background-color: rgba(0, 0, 0, 0.815);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
@@ -11,16 +11,23 @@ header {
 
     color: white;
     text-align: center;
+    box-shadow: 3px 5px 55px 5px rgb(43, 110, 226); /*5 é lateral - 2 vertical - 3 - espalhamento*/
 
+}
+
+h1{
+    color: rgba(172, 164, 153, 0.895);
+    box-shadow: 5px 5px 10px blue;
 }
 
 section {
 
-    background-color: white;
+    background-color: rgb(122, 107, 107);
     border-radius: 10px;
     padding: 15px;
     width: 500px; /*largura*/
     margin: auto;
+    box-shadow: 5px 5px 10px rgb(81, 255, 0);
 
 }
 
@@ -28,4 +35,6 @@ footer {
 
     color: white;
     text-align: center;
+    font-style: italic;
+    box-shadow: 3px 5px 55px 5px rgb(43, 110, 226); /*5 é lateral - 2 vertical - 3 - espalhamento*/
 }
