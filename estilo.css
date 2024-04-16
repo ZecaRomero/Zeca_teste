@@ -20,6 +20,12 @@ h1{
     box-shadow: 5px 5px 10px blue;
 }
 
+#cor_div{
+    color: aqua;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 section {
 
     background-color: rgb(122, 107, 107);
