@@ -1,11 +1,15 @@
 function carregar() {
 
-    var msg = window.document.getElementById('msg')
-    var img = window.document.getElementById('imagem')
+    var msg = window.document.getElementById('msg') //na DIV esta esse msg
+    var img = window.document.getElementById('imagem') // mesma coisa acima 
     var data = new Date()
     var hora = data.getHours()
+    var minutos = data.getMinutes()
+    var segundos = data.getSeconds()
+    
     // forcando a hora var hora = 8
-    msg.innerHTML = `Agora sao ${hora} horas. `
+    msg.innerHTML = `Agora sao ${hora}:${minutos } e ${segundos} segundos.`
+   
 
     if (hora >= 0 && hora < 12 ){
         // BOM DIA 
@@ -13,7 +17,7 @@ function carregar() {
         
     }
     else if (hora >= 12 && hora <= 18){
-        //BOA TARDE 
+       
         img.src = 'tarde.webp'
     }
 
